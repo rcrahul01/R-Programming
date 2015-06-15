@@ -1,0 +1,144 @@
+source("submitscript1.R")
+setwd("Users/rchoudhu/Downloads")
+getwd()
+setwd(""/Users/rchoudhu/Downloads")
+exit
+quit
+close
+a<-array(rnorm(2*2*10),c(2,2,10))
+a
+a<-array(rnorm(2*2*10),c(2,2))
+a
+list(rep(1,4),rep(4,1))
+mapply(rep,1:4,4:1)
+x<-c(rnorm(10))
+x
+x<-c(runif(10))
+x
+x<-c(rnorm(10,1))
+x
+library(datasets)
+data(iris)
+?iris
+print data(iris)
+print (data(iris))
+x<-data(iris)
+x
+$iris
+str(iris)
+iris
+type(iris)
+x <- subset(iris, Species == "virginica")$Sepal.Length
+mean(x[!is.na(x)])
+apply(iris[, 1:4], 2, mean)
+apply(iris, 2, mean)
+apply(iris, 2, mean,rm.Na =TRUE)
+apply(iris, 2, mean,na.rm =TRUE)
+apply(iris, 2, mean, na.rm =TRUE)
+iris[, 1:4]
+library(datasets)
+data(mtcars)
+?mtcars
+mtcars
+split(mtcars$mpg)
+mtcars$mpg
+sapply(mtcars,cyl,mean)
+sapply(mtcars,cyldebug(ls),mean)
+debug(ls)
+ls
+ne
+n
+debug(ls)
+n
+debug(ls)tapply(mtcars$mpg, mtcars$cyl, mean)
+tapply(mtcars$mpg, mtcars$cyl, mean)
+x <- tapply(mtcars$hp, mtcars$cyl, mean)
+x
+x['8'] - x['4']
+l
+ls
+degug(ls)
+debug(ls)
+ls
+library(datasets)
+data(iris)
+x <- subset(iris, Species == "virginica")$Sepal.Length
+mean(x[!is.na(x)])
+library(datasets)
+data(mtcars)
+library(datasets)
+data(mtcars)
+x <- tapply(mtcars$hp, mtcars$cyl, mean)
+x
+x['8'] - x['4']
+set.seed(1)
+rpois(5,2)
+rpois(5,2)
+rpois(5,2)
+rpois(5,2)
+rpois(5,2)
+rpois(5,2)
+rpois(5,2)
+rpois(5,2)
+rpois(5,2)
+getwd()
+setwd("/Users/rchoudh/Downloads")
+setwd("/Users/rchoudh/Downloads")
+setwd("/Users/rchoudh/Download")
+setwd("/Users/rchoudhu/Downloads")
+outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome <- read.csv("rprog-data-ProgAssignment3-data/outcome-of-care-measures.csv", colClasses = "character")
+head(outcome)
+head(outcome)
+ncol(outcome)
+outcome[, 11] <- as.numeric(outcome[, 11])
+hist(outcome[, 11])
+hist(outcome[, 11])
+outcome
+head(outcome)
+colnames(outcome)
+outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack
+outcome$Hospital.30.Day.Death..MortalityRates.from.Heart.Attack
+outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack
+library(sqldf)
+csv_data <- read.csv('outcome-of-care-measures.csv', colClasses = 'character')
+csv_data <- read.csv('rprog-data-ProgAssignment3-data/outcome-of-care-measures.csv', colClasses = 'character')
+valid_outcomes <- c('heart attack', 'heart failure', 'pneumonia')
+valid_states <- unique(csv_data$State)
+if (!state %in% valid_states) stop("invalid state")
+if (!state %in% valid_states) stop("invalid state")
+outcome_columns <- c(11, 17, 23)
+outcomes_df <- data.frame(valid_outcomes, outcome_columns)
+head(outcomes_df)
+for (i in outcomes_df$outcome_columns) {#
+		csv_data[, i] <- suppressWarnings(as.numeric(csv_data[, i]))#
+	}
+outcome='heart attack'
+outcome<-'heart attack'
+subset(outcomes_df, valid_outcomes == outcome)$outcome_columns
+subset(outcomes_df, valid_outcomes == outcome)
+state<-'AL'
+subset(csv_data, csv_data$State == state, select = subset(outcomes_df, valid_outcomes == outcome)$outcome_columns), na.rm = TRUE)
+subset(csv_data, csv_data$State == state, select = subset(outcomes_df, valid_outcomes == outcome)$outcome_columns)
+min(subset(csv_data, csv_data$State == state, select = subset(outcomes_df, valid_outcomes == outcome)$outcome_columns),na.rm=TRUE)
+csv_data[, subset(outcomes_df, valid_outcomes == outcome)$outcome_columns
+]
+csv_data[, subset(outcomes_df, valid_outcomes == outcome)$outcome_columns]
+best_list <- subset(csv_data, csv_data$State == state & csv_data[, subset(outcomes_df, valid_outcomes == outcome)$outcome_columns] == min_value, select = Hospital.Name)
+best_list <- subset(csv_data, csv_data$State == state & csv_data[, subset(outcomes_df, valid_outcomes == outcome)$outcome_columns] == min_value, select = Hospital.Name)
+min_value <- min(subset(csv_data, csv_data$State == state, select = subset(outcomes_df, valid_outcomes == outcome)$outcome_columns), na.rm = TRUE)
+best_list <- subset(csv_data, csv_data$State == state & csv_data[, subset(outcomes_df, valid_outcomes == outcome)$outcome_columns] == min_value, select = Hospital.Name)
+best_list
+setwd("/Users/rchoudhu/Devenv/Big-Data-with-Apache-Spark/assignment3")
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript3.R")
+submit()
+q
+quit
+exit
+0
+Q
+source("submitscript3.R")
+submit()
+Q
+source("submitscript3.R")
+submit()
